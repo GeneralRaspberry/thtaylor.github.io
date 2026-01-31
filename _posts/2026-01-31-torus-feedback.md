@@ -21,3 +21,23 @@ This post explores a minimal system where particles locally rotate a flow field.
 Open model in new tab →
 </a>
 </p>
+
+---
+
+### Model description
+
+A uniform force field is defined on a two-dimensional domain with toroidal topology.
+
+Particles are introduced. Each particle applies a local rotational perturbation to the field with strength 
+𝛼
+α, where
+\[
+\alpha = \text{rad} \cdot \text{particle}^{-1} \cdot \text{frame}^{-1}
+\]
+At each frame, the evolution of the field is determined by the sum of particle contributions.
+
+The resulting dynamics are chaotic.
+
+At low particle speeds, motion is dominated by local two-dimensional structures. As particle speed increases, these local structures weaken and coherent global behaviour emerges in the form of three-dimensional super-structures.
+
+By extension, if the system were embedded on a higher-dimensional torus, further increases in speed would be expected to produce higher-dimensional coherent structures.
