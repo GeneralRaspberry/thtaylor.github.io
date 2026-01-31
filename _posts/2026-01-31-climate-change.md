@@ -10,8 +10,8 @@ This post explores a climate change from first principles.
 <div style="margin: 2rem 0; width: 100%;">
   <iframe
    src="https://editor.p5js.org/GeneralRaspberry/full/VR1475f0O"
-    width="150%"
-    height="625"
+    width="140%"
+    height="650"
     style="border: 1px solid #ddd; border-radius: 8px;"
     loading="lazy"
   ></iframe>
