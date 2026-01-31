@@ -36,9 +36,9 @@ An initial flux-based formulation produced largely linear behaviour and failed t
 
 ## Model structure
 
-Photosynthesis is modelled as a temperature-dependent process with an optimal temperature \( T_{\mathrm{opt}} \), represented by a Gaussian response curve. The parameter \( \sigma \) controls the breadth of this response and reflects how tightly plant productivity is tuned to its optimum.
+Photosynthesis is modelled as a temperature-dependent process with an optimal temperature $$ T_{\mathrm{opt}} $$, represented by a Gaussian response curve. The parameter $$ \sigma $$ controls the breadth of this response and reflects how tightly plant productivity is tuned to its optimum.
 
-Respiration is modelled relative to temperature using a \( Q_{10} \)-type relationship. In this formulation, respiration acts as a **metabolic burn rate**: higher respiration increases carbon release while simultaneously reducing the system’s capacity to sustain photosynthesis.
+Respiration is modelled relative to temperature using a $$ Q_{10} $$-type relationship. In this formulation, respiration acts as a **metabolic burn rate**: higher respiration increases carbon release while simultaneously reducing the system’s capacity to sustain photosynthesis.
 
 Net ecosystem production (NEP) is defined as the balance between respiration and photosynthesis. Rather than treating NEP as an instantaneous flux, it is accumulated over time to represent atmospheric carbon stock.
 
