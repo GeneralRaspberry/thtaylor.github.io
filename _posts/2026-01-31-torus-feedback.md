@@ -1,6 +1,7 @@
 ---
 title: "Torus Flow with Particle Feedback"
 permalink: /torus-feedback/
+layout: default
 ---
 
 
@@ -31,9 +32,9 @@ A uniform force field is defined on a two-dimensional domain with toroidal topol
 Particles are introduced. Each particle applies a local rotational perturbation to the field with strength 
 𝛼
 α, where
-\[
-\alpha = \text{rad} \cdot \text{particle}^{-1} \cdot \text{frame}^{-1}
-\]
+$$
+\alpha = \mathrm{rad} \cdot \mathrm{particle}^{-1} \cdot \mathrm{frame}^{-1}
+$$
 At each frame, the evolution of the field is determined by the sum of particle contributions.
 
 The resulting dynamics are chaotic.
