@@ -30,8 +30,7 @@ Open model in new tab →
 A uniform force field is defined on a two-dimensional domain with toroidal topology.
 
 Particles are introduced. Each particle applies a local rotational perturbation to the field with strength 
-𝛼
-α, where
+𝛼, where
 $$
 \alpha = \mathrm{rad} \cdot \mathrm{particle}^{-1} \cdot \mathrm{frame}^{-1}
 $$
